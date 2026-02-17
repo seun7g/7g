@@ -98,7 +98,7 @@
             z-index: -1;
         }
         .box{
-            width: 600px;
+            width: 100%;
             background: #001;
             padding: 12px;
             border-radius: 6px;
@@ -126,12 +126,61 @@
             margin: 0 0 4px 0;
             letter-spacing: -0.5px;
         }
-        span{
+        .box span{
             font-size: 33.6px;
             margin: 0 0 8px 0;
             font-family: cursive;
         }
-
+        .discount{
+            display: flex;
+            gap: 30px;
+            max-width: 1024px;
+            width: 90%;
+            margin: 30px auto;
+        }
+        .menu.card{
+            background: #001;
+            color: #fff;
+            overflow: hidden;
+            border-radius: 8px;
+            max-width: 290px;
+            width: 90%;
+        }
+        .menu.top{
+            border-radius: 0 0 0 30px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: aliceblue;
+        }
+        .menu.bottom{
+            padding: 30px;
+        }
+        .menu.action{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .menucontainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px auto;
+            max-width: 1024px;
+            width: 90%;
+            justify-content: center;
+        }
+        .title{
+            font-size:48px;
+            font-family: cursive;
+        }
+        .utr{
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -162,7 +211,7 @@
         </div>
      </section>
 
-     <section>
+     <section class="discount">
          <div class="box">
             <div class="box-img"><img src="o1.jpg" alt="">
             </div>
@@ -176,9 +225,7 @@
                 <button>Order Now <i class="ri-shopping-cart-2-fill"></i></button>
                 </div>
                 </div>
-     </section>
-     
-     <section>
+               
          <div class="box">
             <div class="box-img"><img src="o2.jpg" alt="">
             </div>
@@ -192,6 +239,80 @@
                 <button>Order Now <i class="ri-shopping-cart-2-fill"></i></button>
                 </div>
                 </div>
+     </section>
+
+     <section class="menu">
+        <div class="menu-nav">
+            <a href="">All</a>
+            <a href="">Pizza</a>
+            <a href="">Fries</a>
+            <a href="">Pasta</a>
+        </div>
+        <div class="menucontainer">
+            <div class="card">
+                <div class="top">
+                    <img src="o1.jpg" alt="" width="120px">
+                </div>
+                <div class="bottom">
+                    <h5>Delicious Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <div class="action">
+                        <span> $20</span>
+                        <a href=""&bigodot;></a>
+                    </div>
+                </div>
+            </div>
+              <div class="card">
+                <div class="top">
+                    <img src="o1.jpg" alt="" width="120px">
+                </div>
+                <div class="bottom">
+                    <h5>Delicious Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <div class="action">
+                        <span> $20</span>
+                        <a href=""&bigodot;></a>
+                    </div>
+                </div>
+            </div>
+              <div class="card">
+                <div class="top">
+                    <img src="o1.jpg" alt="" width="120px">
+                </div>
+                <div class="bottom">
+                    <h5>Delicious Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <div class="action">
+                        <span> $20</span>
+                        <a href=""&bigodot;></a>
+                    </div>
+                </div>
+            </div>
+              <div class="card">
+                <div class="top">
+                    <img src="o1.jpg" alt="" width="120px">
+                </div>
+                <div class="bottom">
+                    <h5>Delicious Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <div class="action">
+                        <span> $20</span>
+                        <a href=""&bigodot;></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section>
+        <div class="utr">
+            <div> <img src="03_files/about-img.png" alt=""> </div>
+            <div>
+                <div class="title"> We Are Feane</div>
+                <p class="pp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ipsa temporibus commodi deserunt aut eos odio quod. Commodi vitae quasi ab tenetur dolorum soluta officiis ipsum quo laudantium modi labore nostrum alias, iusto architecto totam! Pariatur hic cupiditate beatae ad possimus doloribus aliquid tempora minima quasi tempore nisi ipsum iste ea blanditiis est, eligendi optio distinctio. Consequatur, libero?</p>
+
+            </div>
+        </div>
      </section>
 </body>
 </html>
