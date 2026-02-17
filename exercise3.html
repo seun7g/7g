@@ -1,19 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
-            box-sizing: border-box; 
+            box-sizing: border-box;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-        header{
+
+        header {
             position: sticky;
             top: 0;
             left: 0;
@@ -27,38 +30,45 @@
             background-position: top;
             background-size: c;
         }
-        .logo{
+
+        .logo {
             font-family: cursive;
             font-size: 2.6rem;
             color: aliceblue;
             font-weight: 400;
         }
-        nav ul{
+
+        nav ul {
             list-style: none;
             display: flex;
             gap: 38px;
         }
-        nav a{
+
+        nav a {
             color: antiquewhite;
             text-decoration: none;
             font-size: 16.8px;
             font-weight: 500;
-            &:hover{
+
+            &:hover {
                 color: orangered;
             }
         }
-        .headericons{
+
+        .headericons {
             display: flex;
             gap: 24px;
             align-items: center;
             color: antiquewhite;
         }
-        .headericons{
-            &:hover{
+
+        .headericons {
+            &:hover {
                 color: black;
             }
         }
-        button{
+
+        button {
             background: rgb(255, 170, 11);
             color: antiquewhite;
             padding: 10px 26px;
@@ -68,27 +78,32 @@
             font-weight: 600;
             border: 0;
         }
-        button{
-            &:hover{
+
+        button {
+            &:hover {
                 background: orangered;
             }
         }
-        .content h2{
+
+        .content h2 {
             font-size: 49px;
             margin-bottom: 22.4px;
             font-family: cursive;
             font-weight: 700;
         }
-        .content p{
+
+        .content p {
             font-size: 18.88px;
             margin-bottom: 40px;
             max-width: 520px;
         }
-        .content{
+
+        .content {
             color: #fff;
             height: 100vh;
         }
-        .image{
+
+        .image {
             position: absolute;
             width: 100%;
             height: 100vh;
@@ -97,7 +112,8 @@
             object-fit: cover;
             z-index: -1;
         }
-        .box{
+
+        .box {
             width: 100%;
             background: #001;
             padding: 12px;
@@ -106,27 +122,32 @@
             display: flex;
             gap: 30px;
         }
-        .box-img{
+
+        .box-img {
             border: 4px solid orange;
             width: 100px;
             height: 100px;
             border-radius: 50%;
             overflow: hidden;
         }
-        .box-img img{
+
+        .box-img img {
             width: 100%;
             transition: .3s;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.1);
             }
         }
-        h2{
+
+        h2 {
             font-family: cursive;
             font-size: 20px;
             margin: 0 0 4px 0;
             letter-spacing: -0.5px;
         }
-        .box span{
+
+        .box span {
             font-size: 33.6px;
             margin: 0 0 8px 0;
             font-family: cursive;
@@ -138,7 +159,8 @@
             width: 90%;
             margin: 30px auto;
         }
-        .menu.card{
+
+        .menu .card{
             background: #001;
             color: #fff;
             overflow: hidden;
@@ -146,18 +168,18 @@
             max-width: 290px;
             width: 90%;
         }
-        .menu.top{
+        .menu .top{
             border-radius: 0 0 0 30px;
-            height: 200px;
+            height:200px ;
             display: flex;
             align-items: center;
             justify-content: center;
             background: aliceblue;
         }
-        .menu.bottom{
+        .menu .bottom{
             padding: 30px;
         }
-        .menu.action{
+        .menu .action{
             display: flex;
             justify-content: space-between;
             margin-top: 15px;
@@ -170,150 +192,146 @@
             max-width: 1024px;
             width: 90%;
             justify-content: center;
-        }
-        .title{
-            font-size:48px;
-            font-family: cursive;
-        }
-        .utr{
-            display: flex;
-            gap: 60px;
-            align-items: center;
-            justify-content: center;
+
         }
     </style>
 </head>
+
 <body>
     <header>
-    <div class="logo"> Feane</div>
-    <nav>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">MENU</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">BOOK TABLE</a></li>
-        </ul>
-    </nav>
-    <div class="headericons">
-        <a href=""><i class="ri-user-line"></i></a>
-        <a href=""><i class="ri-shopping-cart-line"></i></a>
-        <a href=""><i class="ri-search-line"></i></a>
-        <button type='button'>Order Online</button>
-    </div>
+        <div class="logo"> Feane</div>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BOOK TABLE</a></li>
+            </ul>
+        </nav>
+        <div class="headericons">
+            <a href=""><i class="ri-user-line"></i></a>
+            <a href=""><i class="ri-shopping-cart-line"></i></a>
+            <a href=""><i class="ri-search-line"></i></a>
+            <button type='button'>Order Online</button>
+        </div>
     </header>
 
-     <section class="content">
+    <section class="content">
         <div>
-             <h2>Fast Food Resturant</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil voluptas minima consequuntur. Sint, sit odit. Magnam, illo quae modi veniam maiores quos alias aliquid aperiam beatae sunt, ratione deleniti.</p>
-           <button>Order Online</button>
-            <img class="image" src="hero-bg.jpg" alt=""> 
+            <h2>Fast Food Resturant</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil voluptas minima consequuntur. Sint, sit
+                odit. Magnam, illo quae modi veniam maiores quos alias aliquid aperiam beatae sunt, ratione deleniti.
+            </p>
+            <button>Order Online</button>
+            <img class="image" src="hero-bg.jpg" alt="">
         </div>
-     </section>
+    </section>
 
-     <section class="discount">
-         <div class="box">
+    <section class="discount">
+        <div class="box">
             <div class="box-img"><img src="o1.jpg" alt="">
             </div>
-              <div class="detail">
+            <div class="detail">
                 <h2>
-                  Tasty Thursdays
+                    Tasty Thursdays
                 </h2>
                 <h3>
-                  <span>20%</span> Off
+                    <span>20%</span> Off
                 </h3>
                 <button>Order Now <i class="ri-shopping-cart-2-fill"></i></button>
-                </div>
-                </div>
-               
-         <div class="box">
+            </div>
+        </div>
+
+        <div class="box">
             <div class="box-img"><img src="o2.jpg" alt="">
             </div>
-              <div class="detail">
+            <div class="detail">
                 <h2>
-                  Pizza Days
+                    Pizza Days
                 </h2>
                 <h3>
-                  <span>15%</span> Off
+                    <span>15%</span> Off
                 </h3>
                 <button>Order Now <i class="ri-shopping-cart-2-fill"></i></button>
-                </div>
-                </div>
-     </section>
+            </div>
+        </div>
+    </section>
 
-     <section class="menu">
+    <section class="menu">
+        <h3>Our Menu</h3>
         <div class="menu-nav">
             <a href="">All</a>
             <a href="">Pizza</a>
-            <a href="">Fries</a>
+            <a href="">Fries </a>
             <a href="">Pasta</a>
         </div>
         <div class="menucontainer">
             <div class="card">
                 <div class="top">
-                    <img src="o1.jpg" alt="" width="120px">
+                    <img src="o1.jpg" alt="" width="120">
                 </div>
                 <div class="bottom">
-                    <h5>Delicious Pizza</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <h5>Delicios Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores vitae perferendis!</p>
                     <div class="action">
                         <span> $20</span>
-                        <a href=""&bigodot;></a>
+                        <a href="">&bigodot;</a>
                     </div>
                 </div>
             </div>
-              <div class="card">
+            <div class="card">
                 <div class="top">
-                    <img src="o1.jpg" alt="" width="120px">
+                    <img src="o1.jpg" alt="" width="120">
                 </div>
                 <div class="bottom">
-                    <h5>Delicious Pizza</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <h5>Delicios Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores vitae perferendis!</p>
                     <div class="action">
                         <span> $20</span>
-                        <a href=""&bigodot;></a>
+                        <a href="">&bigodot;</a>
                     </div>
                 </div>
             </div>
-              <div class="card">
+            <div class="card">
                 <div class="top">
-                    <img src="o1.jpg" alt="" width="120px">
+                    <img src="o1.jpg" alt="" width="120">
                 </div>
                 <div class="bottom">
-                    <h5>Delicious Pizza</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <h5>Delicios Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores vitae perferendis!</p>
                     <div class="action">
                         <span> $20</span>
-                        <a href=""&bigodot;></a>
+                        <a href="">&bigodot;</a>
                     </div>
                 </div>
             </div>
-              <div class="card">
+            <div class="card">
                 <div class="top">
-                    <img src="o1.jpg" alt="" width="120px">
+                    <img src="o1.jpg" alt="" width="120">
                 </div>
                 <div class="bottom">
-                    <h5>Delicious Pizza</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati nemo illo necessitatibus nam earum rem exercitationem voluptatibus unde minus!</p>
+                    <h5>Delicios Pizza</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores vitae perferendis!</p>
                     <div class="action">
                         <span> $20</span>
-                        <a href=""&bigodot;></a>
+                        <a href="">&bigodot;</a>
                     </div>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 
-     <section>
-        <div class="utr">
-            <div> <img src="03_files/about-img.png" alt=""> </div>
-            <div>
-                <div class="title"> We Are Feane</div>
-                <p class="pp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ipsa temporibus commodi deserunt aut eos odio quod. Commodi vitae quasi ab tenetur dolorum soluta officiis ipsum quo laudantium modi labore nostrum alias, iusto architecto totam! Pariatur hic cupiditate beatae ad possimus doloribus aliquid tempora minima quasi tempore nisi ipsum iste ea blanditiis est, eligendi optio distinctio. Consequatur, libero?</p>
-
-            </div>
-        </div>
-     </section>
+    <section>
+            <!-- 15 mins -->
+             <div>
+                 <div> <img src="" alt=""> </div>
+                 <div>
+                    <div class="title"> We are Feane</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolor corporis nulla accusantium facilis fuga fugiat et. Ipsa, corporis quam.</p>
+                 </div>
+             </div>
+    </section>
 </body>
+
 </html>
 <!-- https://themewagon.github.io/feane/index.html -->
