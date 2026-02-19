@@ -45,7 +45,7 @@
             gap: 38px;
         }
 
-        nav a {
+        nav a, .headericons a {
             color: antiquewhite;
             text-decoration: none;
             font-size: 16.8px;
@@ -334,7 +334,7 @@
         display: flex;
         background: #001;
         color: white;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
     }
     footer .col{
@@ -351,6 +351,9 @@
     }
     .col_link{
         margin: 21px auto;
+        display: flex;
+        gap: 10px;
+
     }
     /* .end{
         background: #001;
@@ -385,6 +388,16 @@
         gap: 24px;
         padding-bottom: 40px;
         font-size: 17px;
+    }
+    .col_link a{
+        background: white;
+        width: 30px;
+        height: 30px;
+        color: #001;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     </style>
 </head>
@@ -575,8 +588,8 @@
             </div>
         </div>
         <div class="last_part">
-            <p> <a href=""><i class="ri-copyright-line"></i></a>2026 All Rights Reserved By Free Html Templates </p>
-            <p2> <a href=""><i class="ri-copyright-line"></i></a>Distributed By ThemeWagon</p>
+            <p> <i class="ri-copyright-line"></i>2026 All Rights Reserved By Free Html Templates </p>
+            <p2> <i class="ri-copyright-line"></i>Distributed By ThemeWagon</p>
         </div>
     </footer>
 </body>
